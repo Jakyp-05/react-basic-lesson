@@ -1,0 +1,49 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1440px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.card {
+    place-self: center;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 15px;
+}
+.card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.odd {
+    background-color: aquamarine;
+}
+.even {
+    background-color: cornflowerblue;
+}
+/* -------------------------------- */
+h1 {
+    font-size: 70px;
+    margin-top: 20px;
+}
+button {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 30px;
+}
+input {
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
